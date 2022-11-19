@@ -1,4 +1,4 @@
-HTTP auth password hack that uses "payload.txt".
+HTTP auth password cracker that uses "payload.txt".
 .
 //\/\/\/\/\/\/\\
 NOTES: Host should be given with http:// at first.
