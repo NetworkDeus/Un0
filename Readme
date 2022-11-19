@@ -3,7 +3,7 @@ HTTP auth password cracker that uses "payload.txt".
 //\/\/\/\/\/\/\\
 NOTES: Host should be given with http:// at first.
        Username is given in argv[3] and will not use payload (cracks only the password).
-       Run without args to show help.
+       Run without args to show HELP.
 \\/\/\/\/\/\/\//
 .
 .
